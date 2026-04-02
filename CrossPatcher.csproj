@@ -43,7 +43,7 @@
 	<Target Condition="$(DefineConstants.Contains('BEPIN'))" Name="CopyOutputFileToGame" AfterTargets="Build">
 		<Copy SourceFiles="
 				manifest.json;
-				preview.png;
+				icon.png;
 				README.md;
 				$(OutputPath)\$(AssemblyName).dll"
 			  DestinationFiles="
